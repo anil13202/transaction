@@ -1,0 +1,4 @@
+com.legstar.eclipse.plugin.schemagen.cobolCode=\       01 SO1-RECORD.\r\n          05 SO1-NAME  PIC X(10).\r\n          05 SO1-CLASS PIC X(10).\r\n          05 SO1-COUNTRY PIC X(10).\r\n
+eclipse.preferences.version=1
+targetNamespace=http\://coxb.test.legstar.com/transaction
+targetXsdFileName=transaction.xsd

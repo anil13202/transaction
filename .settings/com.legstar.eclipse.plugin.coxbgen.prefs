@@ -1,0 +1,17 @@
+coxbBinDir=C\:\\Users\\13152\\eclipse-workspace\\transaction\\target\\classes
+coxbPackageName=com.example.springbootswagger2.copybook.transaction.bind
+coxbSrcDir=C\:\\Users\\13152\\eclipse-workspace\\transaction\\src\\main\\java
+eciCompatible=false
+eclipse.preferences.version=1
+generateIsSetMethod=true
+internalBindings=true
+isCompileTransformers=false
+isJsonTransformers=false
+isXmlTransformers=true
+jaxbBinDir=C\:\\Users\\13152\\eclipse-workspace\\transaction\\target\\classes
+jaxbPackageName=com.example.springbootswagger2.copybook.transaction
+jaxbRootClassNames_0=So1Record
+jaxbSrcDir=C\:\\Users\\13152\\eclipse-workspace\\transaction\\src\\main\\java
+noPackageInfo=false
+serializableID=1
+xsdFile=C\:\\Users\\13152\\eclipse-workspace\\transaction\\transaction.xsd

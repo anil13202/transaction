@@ -1,0 +1,4 @@
+       01 SO1-RECORD.
+          05 SO1-NAME  PIC X(10).
+          05 SO1-CLASS PIC X(10).
+          05 SO1-COUNTRY PIC X(10).

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:cb="http://www.legsem.com/legstar/xml/cobol-binding-1.0.1.xsd" xmlns:tns="http://coxb.test.legstar.com/transaction" elementFormDefault="qualified" targetNamespace="http://coxb.test.legstar.com/transaction">
+    <complexType name="So1Record">
+        <sequence>
+            <element name="so1Name">
+                <annotation>
+                    <appinfo>
+                        <cb:cobolElement cobolName="SO1-NAME" levelNumber="5" picture="X(10)" srceLine="2" type="ALPHANUMERIC_ITEM"/>
+                    </appinfo>
+                </annotation>
+                <simpleType>
+                    <restriction base="string">
+                        <maxLength value="10"/>
+                    </restriction>
+                </simpleType>
+            </element>
+            <element name="so1Class">
+                <annotation>
+                    <appinfo>
+                        <cb:cobolElement cobolName="SO1-CLASS" levelNumber="5" picture="X(10)" srceLine="3" type="ALPHANUMERIC_ITEM"/>
+                    </appinfo>
+                </annotation>
+                <simpleType>
+                    <restriction base="string">
+                        <maxLength value="10"/>
+                    </restriction>
+                </simpleType>
+            </element>
+            <element name="so1Country">
+                <annotation>
+                    <appinfo>
+                        <cb:cobolElement cobolName="SO1-COUNTRY" levelNumber="5" picture="X(10)" srceLine="4" type="ALPHANUMERIC_ITEM"/>
+                    </appinfo>
+                </annotation>
+                <simpleType>
+                    <restriction base="string">
+                        <maxLength value="10"/>
+                    </restriction>
+                </simpleType>
+            </element>
+        </sequence>
+    </complexType>
+    <element name="so1Record" type="tns:So1Record">
+        <annotation>
+            <appinfo>
+                <cb:cobolElement cobolName="SO1-RECORD" levelNumber="1" srceLine="1" type="GROUP_ITEM"/>
+            </appinfo>
+        </annotation>
+    </element>
+</schema>
