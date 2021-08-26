@@ -8,4 +8,32 @@
   <groupId>com.example</groupId>
   <artifactId>transaction</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  <dependencies>
+  		<dependency>
+			<groupId>com.legsem.legstar</groupId>
+			<artifactId>legstar-coxbapi</artifactId>
+			<version>1.6.0</version>
+			<exclusions>
+				<exclusion>
+					<groupId>commons.logging</groupId>
+					<artifactId>commons.logging</artifactId>
+				</exclusion>
+				<exclusion>
+					<groupId>org.codehaus.jackson</groupId>
+					<artifactId>jackson-mapper-asl</artifactId>
+				</exclusion>
+			</exclusions>
+		</dependency>
+		<dependency>
+			<groupId>com.legsem.legstar</groupId>
+			<artifactId>legstar-coxbrt</artifactId>
+			<version>1.6.0</version>
+			<exclusions>
+				<exclusion>
+					<groupId>commons.logging</groupId>
+					<artifactId>commons.logging</artifactId>
+				</exclusion>
+			</exclusions>
+		</dependency>
+  </dependencies>
 </project>
